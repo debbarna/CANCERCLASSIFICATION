@@ -1,27 +1,25 @@
- Model Architecture
-The project includes implementation and benchmarking of various machine learning models:
+# 🧬 Cancer Classification using Machine Learning
 
-Logistic Regression
+This project focuses on classifying cancer types using machine learning techniques applied to clinical, genomic, or imaging data. The aim is to support early diagnosis and improve treatment planning by accurately distinguishing between benign and malignant tumors (or among multiple cancer subtypes).
 
-Random Forest
+---
 
-Support Vector Machine (SVM)
+## 📂 Dataset
 
-K-Nearest Neighbors (KNN)
+We use publicly available cancer datasets such as:
 
-Decision Tree
+- **Breast Cancer Wisconsin (Diagnostic)** dataset from UCI ML Repository  
+- (Optional) TCGA gene expression / methylation data  
+- (Optional) Histopathology image datasets like BreakHis or CAMELYON
 
-Gradient Boosting / XGBoost (optional)
+Each dataset includes features extracted from tissue samples or images and corresponding cancer labels (e.g., benign vs. malignant).
 
-(Optional) Deep Learning Model using Keras or PyTorch
+---
 
-Preprocessing includes:
+## 🧠 Models Used
 
-Missing value handling
-
-Feature normalization
-
-Train-test split
-
-Cross-validation
-
+- Logistic Regression  
+- Random Forest  
+- Support Vector Machine (SVM)  
+- K-Nearest Neighbors (KNN)  
+- XGBoost (optional)  
