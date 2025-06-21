@@ -9,8 +9,6 @@ This project focuses on classifying cancer types using machine learning techniqu
 We use publicly available cancer datasets such as:
 
 - **Breast Cancer Wisconsin (Diagnostic)** dataset from UCI ML Repository  
-- (Optional) TCGA gene expression / methylation data  
-- (Optional) Histopathology image datasets like BreakHis or CAMELYON
 
 Each dataset includes features extracted from tissue samples or images and corresponding cancer labels (e.g., benign vs. malignant).
 
